@@ -55,3 +55,8 @@ button:hover {
 button:active {
     background-color: #004999;
 }
+.ver{
+    width: auto;
+    background-color: aquamarine;
+    color:white;
+}
