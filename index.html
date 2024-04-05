@@ -16,18 +16,16 @@
             <form id="formulario2" action="#" method="POST">
                 <label for="puntaje_referencia">Puntaje de Referencia:</label>
                 <input type="text" id="puntaje_referencia" name="puntaje_referencia" step="0.1" required><br><br>
-                <button type="submit">Enviar</button>
+                <button type="submit" onclick=" procesarEntrenamiento()">Enviar</button>
             </form>
         </div>
-        <button>REINICIAR</button>
-        <div class="red">
+        <div class="micontenedor" id="micontenedor">
             <h2>Mostrar resultados</h2>
-            <h3 class="ver" id="verDatos"></h3>
-            <div class="diferencia">Diferencia con el número real: </div>
+            <h3></h3>
         </div>
        
     </div>
-    <script src="//unpkg.com/brain.js"></script>
+     <!--<script src="//unpkg.com/brain.js"></script> -->
     <script src="script.js"></script>
 
 </body>
